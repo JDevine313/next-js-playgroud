@@ -1,0 +1,9 @@
+.RonQuotes {
+  font-size: 2em;
+  color: white;
+  position: fixed;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  top: 20%;
+}
