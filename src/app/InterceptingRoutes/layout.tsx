@@ -4,7 +4,6 @@ import "./layout.css";
 export default function InterceptingRoutesLayout({
   children,
 }: Readonly<{
-  model: React.ReactNode;
   children: React.ReactNode;
 }>) {
   return (

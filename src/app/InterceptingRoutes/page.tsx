@@ -1,9 +1,11 @@
-import Model from "./Model/page";
+import Link from "next/link";
 
 const InterceptingRoutes = () => {
   return (
     <div className="InterceptingRoutes">
-      <Model />
+      <Link href={"/InterceptingRoutes/RonQuotes"}>
+        <button>open model</button>
+      </Link>
     </div>
   );
 };
