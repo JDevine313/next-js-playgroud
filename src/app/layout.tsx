@@ -32,6 +32,9 @@ export default function RootLayout({
           <Link href="/InterceptingRoutes">
             <button>Intercepting Routes</button>
           </Link>
+          <Link href="/ServerActions">
+            <button>Server Actions</button>
+          </Link>
         </header>
         {children}
       </body>
